@@ -49,49 +49,49 @@ SMB enumerate share
 `smbclient \\\\<target ip>\\WorkShares`
 
 
-TASK 1
+### TASK 1
 What does the 3-letter acronym SMB stand for?
 ```
 server message block
 ```
 
-TASK 2
+### TASK 2
 What port does SMB use to operate at?
 ```
 445
 ```
 
-TASK 3
+### TASK 3
 What is the service name for port 445 that came up in our Nmap scan?
 ```
 microsoft-ds
 ```
 
-TASK 4
+### TASK 4
 What is the 'flag' or 'switch' we can use with the SMB tool to 'list' the contents of the share?
 ```
 -l
 ```
 
-TASK 5
+### TASK 5
 How many shares are there on Dancing?
 ```
 4
 ```
 
-TASK 6
+### TASK 6
 What is the name of the share we are able to access in the end with a blank password?
 ```
 WorkShares
 ```
 
-TASK 7
+### TASK 7
 What is the command we can use within the SMB shell to download the files we find?
 ```
 get
 ```
 
-SUBMIT root flag
+### SUBMIT root flag
 ```
 5f61c10dffbc77a704d76016a22f1664
 ```
