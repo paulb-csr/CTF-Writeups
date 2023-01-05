@@ -71,7 +71,7 @@ telnet <target ip address>
 ```
 
 
-![HTB - Meow - Telnet.png](:/b16d40c358b846a9b6133013c8216eaa)
+![HTB - Meow - Telnet.png](https://github.com/paulb-csr/CTF-Writeups/blob/main/HackTheBox/Meow/HTB-%20Meow%20Telnet.png?raw=true)
 
 ### Root Flag
 ```
