@@ -33,7 +33,7 @@ Nmap done: 1 IP address (1 host up) scanned in 189.02 seconds
 ### Enumeration
 Connect to remote mysql server using following command `mysql -h <Target-IP> -u root`
 
-![HTB - Sequel Mysql 1.png](:/546055f81b624cf99fabb0159b48d26a)
+![HTB - Sequel Mysql 1.png](https://github.com/paulb-csr/CTF-Writeups/blob/main/HackTheBox/Sequel/HTB%20-%20Sequel%20Mysql%201.png)
 
 List tables - `show tables;`
 ```
