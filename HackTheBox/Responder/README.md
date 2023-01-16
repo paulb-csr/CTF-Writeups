@@ -66,16 +66,19 @@ TASK 9
 
 What is the password for the administrator user?
 ```
+badminton
 ```
 
 TASK 10
 
 We'll use a Windows service (i.e. running on the box) to remotely access the Responder machine using the password we recovered. What port TCP does it listen on?
 ```
+5985
 ```
 
 SUBMIT FLAG
 
 Submit root flag
 ```
+ea81b7afddd03efaa0945333ed147fac
 ```
