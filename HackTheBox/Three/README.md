@@ -33,58 +33,68 @@ TASK 1
 
 How many TCP ports are open?
 ```
+2
 ```
 
 TASK 2
 
 What is the domain of the email address provided in the "Contact" section of the website?
 ```
+thetoppers.htb
 ```
 
 TASK 3
 
 In the absence of a DNS server, which Linux file can we use to resolve hostnames to IP addresses in order to be able to access the websites that point to those hostnames?
 ```
+/etc/hosts
 ```
 
 TASK 4
 
 Which sub-domain is discovered during further enumeration?
 ```
+s3.thetoppers.htb
 ```
 
 TASK 5
 
 Which service is running on the discovered sub-domain?
 ```
+Amazon AWS
 ```
 
 TASK 6
 
 Which command line utility can be used to interact with the service running on the discovered sub-domain?
 ```
+awscli
 ```
 
 TASK 7
 
 Which command is used to set up the AWS CLI installation?
 ```
+awscli configure
 ```
 
 TASK 8
 
 What is the command used by the above utility to list all of the S3 buckets?
 ```
+awscli s3 ls
 ```
 
 TASK 9
 
 This server is configured to run files written in what web scripting language?
 ```
+php
 ```
 
 SUBMIT FLAG
 
 Submit root flag
 ```
+a980d99281a28d638ac68b9bf9453c2b
 ```
