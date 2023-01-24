@@ -6,10 +6,14 @@ OS:
 Tools Used: Python
 Author: Paul B.
 ```
-We are presented with a webpage of corridor, If we can click on the door we are taken to a different page. 
+We are presented with a webpage of corridor, If we click on the door we are taken to a different page. 
+![THM - Corridor](https://raw.githubusercontent.com/paulb-csr/CTF-Writeups/main/TryHackMe/Corridor/THM%20-%20Corridor.png)
 
+Take a close look at the URL, we can see hash sum which looks similar to md5. 
+![THM - Corridor Doors](https://raw.githubusercontent.com/paulb-csr/CTF-Writeups/main/TryHackMe/Corridor/THM%20-%20Corridor%20Page%201.png)
 
-Take a close look of the URL, we can see hash sum which looks similar to md5. Let's crack the hash using [Crackstation](https://crackstation.net/). Hence we understood that the hash are nothing but numerical values starting from 1 to 13
+Let's crack the hash using [Crackstation](https://crackstation.net/). Hence we understood that the hash are nothing but numerical values starting from 1 to 13
+![THM - Corridor Crackstation](https://raw.githubusercontent.com/paulb-csr/CTF-Writeups/main/TryHackMe/Corridor/THM%20-%20Corridor%20Crackstation.png)
 
 Let's create a simple python script to guess the hidden door
 ```
@@ -38,6 +42,7 @@ python3 md5.py [target IP]
 ```
 
 Superb! The hidden page numeric value is `0` and the hash value is `cfcd208495d565ef66e7dff9f98764da`
+![THM - Hidden Page](https://raw.githubusercontent.com/paulb-csr/CTF-Writeups/main/TryHackMe/Corridor/THM%20-%20Corridor%20Flag.png)
 
 ### Answer the questions below
 What is the flag?
